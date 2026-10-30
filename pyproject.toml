@@ -1,0 +1,30 @@
+[project]
+name = "mi-proyecto-mlops"
+version = "0.1.0"
+description = "Proyecto MLOps de predicción de churn bancario con Prefect y MLflow"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "prefect (==3.8.8)",
+    "mlflow (==3.17.0)",
+    "scikit-learn (==1.9.1)",
+    "pandas (==3.0.6)",
+    "numpy (==2.5.4)",
+    "pyyaml (==6.0.3)",
+    "fastapi (==0.143.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false  # el proyecto no es una librería: no se empaqueta
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest (==9.1.1)"
+]

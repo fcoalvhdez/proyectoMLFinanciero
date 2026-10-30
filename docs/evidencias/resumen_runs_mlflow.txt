@@ -1,0 +1,4 @@
+tags.mlflow.runName                           run_id       params.modelo params.excluidas  metrics.auc  metrics.accuracy  metrics.precision  metrics.recall  metrics.f1
+    gb-sin-complain 61960f48fce94d3189f4ac44525a04f0   gradient_boosting         Complain       0.8763            0.8670             0.7610          0.5074      0.6088
+    lr-con-complain 2b2db8915a634ca5b7c603117e91419e logistic_regression          ninguna       0.9988            0.9985             0.9975          0.9951      0.9963
+     churn-training 0d641acb5b684b7c8653e08bd3181672 logistic_regression         Complain       0.7798            0.7115             0.3887          0.7230      0.5056

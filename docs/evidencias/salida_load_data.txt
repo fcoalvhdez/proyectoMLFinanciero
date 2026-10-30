@@ -1,0 +1,2 @@
+Filas: 10000  columnas: 15  nulos: 0
+Proporción de Exited = 1: 0.204

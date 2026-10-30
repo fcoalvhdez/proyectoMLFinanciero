@@ -1,0 +1,12 @@
+20:25:27.569 | INFO    | Flow run 'alluring-dachshund' - Beginning flow run 'alluring-dachshund' for flow 'experimento-a1'
+20:25:27.628 | INFO    | Flow run 'alluring-dachshund' - View at http://localhost:4200/runs/flow-run/030bd2fe-a5ed-4459-86a1-a464ac4e8c98
+20:25:28.547 | INFO    | Task run 'cargar_datos-01c' - Datos cargados: 10000 filas, 15 columnas
+20:25:28.554 | INFO    | Task run 'cargar_datos-01c' - Finished in state Completed()
+2026/10/29 20:25:31 INFO mlflow.tracking.fluent: Experiment with name 'churn-training-mlops' does not exist. Creating a new experiment.
+C:\Users\fjose\Documents\MLops\proyecto-mlops-churn\.venv\Lib\site-packages\mlflow\types\utils.py:440: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details.
+  warnings.warn(
+20:26:08.346 | INFO    | Task run 'entrenar_y_registrar-76b' - Finished in state Completed()
+20:26:10.471 | INFO    | Flow run 'alluring-dachshund' - Run de MLflow: 0d641acb5b684b7c8653e08bd3181672 | AUC = 0.7798
+20:26:11.507 | INFO    | Flow run 'alluring-dachshund' - Finished in state Completed()
+🏃 View run churn-training at: http://localhost:5000/#/experiments/2/runs/0d641acb5b684b7c8653e08bd3181672
+🧪 View experiment at: http://localhost:5000/#/experiments/2

@@ -1,0 +1,9 @@
+20:24:39.846 | INFO    | Flow run 'impetuous-chicken' - Beginning flow run 'impetuous-chicken' for flow 'prueba'
+20:24:39.889 | INFO    | Flow run 'impetuous-chicken' - View at http://localhost:4200/runs/flow-run/acdee655-e803-48af-92d5-716112ea9235
+20:24:41.122 | INFO    | Task run 'sumar-d60' - Finished in state Completed()
+20:24:41.126 | INFO    | Flow run 'impetuous-chicken' - Suma de 1 a 5 = 15
+2026/10/29 20:24:44 INFO mlflow.tracking.fluent: Experiment with name 'prueba-validacion' does not exist. Creating a new experiment.
+20:24:45.521 | INFO    | Flow run 'impetuous-chicken' - Experimento registrado en MLflow
+20:24:48.107 | INFO    | Flow run 'impetuous-chicken' - Finished in state Completed()
+🏃 View run prueba-mlflow at: http://localhost:5000/#/experiments/1/runs/43fade8059dc4dd4b00041e88652c9f4
+🧪 View experiment at: http://localhost:5000/#/experiments/1
