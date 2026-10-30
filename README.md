@@ -90,4 +90,4 @@ Sin `PREFECT_API_URL`, Prefect crea un servidor temporal y el run no aparece en 
 
 Todo lo que puede cambiar vive en `configs/config.yaml` (ruta de datos, variables y columnas excluidas, `test_size` y semilla, tipo de modelo y parámetros, experimento de MLflow y umbral de decisión). `MLFLOW_TRACKING_URI`, si existe, tiene prioridad sobre `mlflow.tracking_uri`.
 
-La columna `Complain` se excluye del modelo: coincide con `Exited` en ~99,7 % de las filas (fuga de datos) y da un AUC irreal de 0,999.
+La columna `Complain` se excluye del modelo: coincide con `Exited` en ~99,9 % de las filas (fuga de datos) y da un AUC irreal de 0,999.

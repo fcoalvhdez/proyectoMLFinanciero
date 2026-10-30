@@ -9,7 +9,7 @@ variables:
   numericas: [CreditScore, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember,
               EstimatedSalary, Complain, Satisfaction Score, Point Earned]
   categoricas: [Geography, Gender, Card Type]
-  # Columnas que se descartan antes de entrenar. Complain coincide con Exited en ~99,7 % de
+  # Columnas que se descartan antes de entrenar. Complain coincide con Exited en ~99,9 % de
   # las filas (fuga de datos), así que se excluye para obtener métricas realistas.
   excluir: [Complain]
 
